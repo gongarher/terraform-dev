@@ -10,3 +10,7 @@ variable "tags" {
 variable "ecr_name" {
     description = "Name of the Elastic Container Registry"
 }
+
+variable "vpc_name" {
+    description = "Name of the new VPC where ECS and ALB are goint to be deployed"
+}
