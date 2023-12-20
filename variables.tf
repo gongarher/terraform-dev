@@ -20,6 +20,20 @@ variable "alb_tg_name" {
     description = "Name of the target group attached to ALB"
 }
 
+##### ECS #####
+variable "ecs_cluster_name" {
+    description = "Name of the ECS cluster"
+}
+variable "ecs_service_name" {
+    description = "Name of the ECS service"
+}
+variable "ecs_task_name" {
+    description = "Name of the ECS task"
+}
+variable "ecs_container_name" {
+    description = "Name of the ECS task container"
+}
+
 variable "tags" {
     description = "Common tags"
     default = {}
